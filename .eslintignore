@@ -1,7 +1,0 @@
-.node_modules
-*.md
-*.lock
-*.log
-.gitignore
-.eslint.js
-*.json
