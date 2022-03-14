@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "how-to-dok-api",
   "version": "0.0.1",
   "authors": [
@@ -19,6 +18,8 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/runtime-corejs2": "^7.17.2",
     "cors": "^2.8.5",
+    "eslint": "^8.10.0",
+    "prettier": "^2.5.1",
     "express": "^4.17.3",
     "helmet": "^5.0.2",
     "nodemon": "^2.0.15"
@@ -31,10 +32,5 @@
     "presets": [
       "@babel/preset-env"
     ]
-=======
-  "dependencies": {
-    "eslint": "^8.10.0",
-    "prettier": "^2.5.1"
->>>>>>> parent of 7a2ad08 (Revert "Addition of ESlint and Prettier" (#6))
   }
 }
