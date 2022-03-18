@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "nodemon ./build/index.js",
     "transpile": "babel ./src -d build",
+    "conn": "node ./build/connection.js",
     "test": "node -v"
   },
   "dependencies": {
@@ -19,10 +20,10 @@
     "@babel/runtime-corejs2": "^7.17.2",
     "cors": "^2.8.5",
     "eslint": "^8.10.0",
-    "prettier": "^2.5.1",
     "express": "^4.17.3",
     "helmet": "^5.0.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
   },
   "devDependencies": {
     "express-cassandra": "^2.7.0",
