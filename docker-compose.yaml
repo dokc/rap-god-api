@@ -1,0 +1,14 @@
+version: "3.11"
+services:
+  database:
+    image: cassandra:latest
+    ports:
+      - 7000:7000
+    volumes:
+      - cassandraVolume:/home/
+    env_file:
+      - cassandra.config
+
+volumes:
+  cassandraVolume:
+    

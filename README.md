@@ -21,3 +21,9 @@ The express backend server uses the older standard of the Javascript (Accordding
 We need to transpile the code from ES6+ to do the work for us, for this we need to run
 
 `yarn transpile`
+
+## Docker configuration
+
+To run the database image, run the following command:
+`docker compose up`
+
