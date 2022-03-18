@@ -1,6 +1,20 @@
-# how-to-dok-api
+# Rap-god-API
 
 API for the how-to-dok project.
+
+This project will be the API for the Rap-god project that'd be used for accessing the database
+and implement other API-endpoints. This is where we connect the cassandra database, configure it and implement
+the project's idea. 
+
+The project will be shared  by various working groups (including but not limited to):
+ - Endpoints
+ - Testing
+ 
+
+We are using: 
+ - Express
+ - Cassandra
+ - Babel for tranpilation
 
 ## Project setup
 
