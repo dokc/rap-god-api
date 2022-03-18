@@ -12,7 +12,6 @@ role_manager: CassandraRoleManager
 # Never allow ssl port on localhost, use a bridge network or a firewall for security reasons
 storage_port: 7000
 ssl_storage_port: 7001
-rpc_port: 9160
 
 # Transport rules
 start_native_transport: true
@@ -40,8 +39,3 @@ seed_provider:
 
 #Timeouts
 cas_contention_timeout_in_ms: 1000
-
-# Directory config
-data_file_directories:
-  - /cassandra_data/data
-commitlog_directory: /cassandra_data/commitlog
