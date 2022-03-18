@@ -5,3 +5,4 @@
 .gitignore
 .eslint.js
 *.json
+src

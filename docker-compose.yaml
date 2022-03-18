@@ -4,11 +4,13 @@ services:
     image: cassandra:latest
     ports:
       - 7000:7000
+      - 9042:9042
     volumes:
+      - ./cassandra.yaml:/etc/cassandra/cassandra.yaml
       - cassandraVolume:/home/
     env_file:
       - cassandra.config
 
 volumes:
   cassandraVolume:
-    
+
