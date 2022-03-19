@@ -1,10 +1,16 @@
 # Rap-god-API
 
-API for the how-to-dok project.
+<hr/>
+
+![Rap-god-Image](https://user-images.githubusercontent.com/67182544/159111811-765d2bb7-d719-485d-9931-acd25064cb0d.jpeg)
+
+
+## API for the how-to-dok project.
 
 This project will be the API for the Rap-god project that'd be used for accessing the database
 and implement other API-endpoints. This is where we connect the cassandra database, configure it and implement
 the project's idea. 
+
 
 The project will be shared  by various working groups (including but not limited to):
  - Endpoints
