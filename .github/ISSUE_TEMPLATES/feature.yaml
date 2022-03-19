@@ -1,23 +1,23 @@
-name: 📗📘 Documentation issue
-description: Found an issue in the documentation? You can use this one!
-title: "[DOCS]"
-labels: ["documentation"]
+name: 💡✨ Feature Request
+description: Have a new idea/feature Please suggest!
+title: "[FEATURE]"
+labels: ["enhancement"]
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A brief description of the issue, also include what you tried and what didn't work! If possible attach a screenshot.
+      description: A brief description of the enhancement you propose, also include what you tried and what worked.
     validations:
       required: true
   - type: textarea
     id: extrainfo
     attributes:
       label: Additional information
-      description: Is there anything else we should know about this issue?
+      description: Is there anything else we should know about this idea?
     validations:
       required: false
-  - type: markdown
+   - type: markdown
     attributes:
       value: |
         ## Thanks for taking the time to add a issue!
