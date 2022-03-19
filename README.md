@@ -22,6 +22,20 @@ We are using:
  - Cassandra
  - Babel for tranpilation
 
+This project will be the API for the Rap-god project that'd be used for accessing the database
+and implement other API-endpoints. This is where we connect the cassandra database, configure it and implement
+the project's idea. 
+
+The project will be shared  by various working groups (including but not limited to):
+ - Endpoints
+ - Testing
+ 
+
+We are using: 
+ - Express
+ - Cassandra
+ - Babel for tranpilation
+
 ## Project setup
 
 Run the following commands to setup the server
@@ -42,6 +56,12 @@ We need to transpile the code from ES6+ to do the work for us, for this we need 
 
 `yarn transpile`
 
+
+=======
+## Docker configuration
+
+To run the database image, run the following command:
+`docker compose up`
 
 =======
 
