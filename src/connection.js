@@ -1,14 +1,14 @@
-import * as cassandra from "express-cassandra";
+import { setDirectory, consistencies } from "express-cassandra"
 
-cassandra.setDirectory(".").bind(
+setDirectory(__dirname + "/models").bind(
   {
     clientOptions: {
       contactPoints: ["127.0.0.1"],
       localDataCenter: "datacenter1",
       protocolOptions: { port: 9042 },
-      keyspace: "mykeyspace",
-      queryOptions: { consistency: models.consistencies.one },
-      socketOptions: { readTimeout: 60000 },
+      keyspace: "CassTest",
+      queryOptions: { consistency: consistencies.one },
+      socketOptions: { readTimeout: 0 },
     },
     ormOptions: {
       defaultReplicationStrategy: {
@@ -19,6 +19,9 @@ cassandra.setDirectory(".").bind(
     },
   },
   function (err) {
-    if (err) throw err;
+    if (err) throw err
+    else {
+      console.log("Database successfully connected at port 9042")
+    }
   }
-);
+)
