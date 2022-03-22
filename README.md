@@ -57,13 +57,11 @@ We need to transpile the code from ES6+ to do the work for us, for this we need 
 `yarn transpile`
 
 
-=======
+
 ## Docker configuration
 
 To run the database image, run the following command:
 `docker compose up`
-
-=======
 
 Run the following commands to setup the server
 

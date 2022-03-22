@@ -1,0 +1,29 @@
+name: 🐞 Bug
+description: Report an issue to help improve the project.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the issue, also include what you tried and what didn't work! If possible upload a screenshot.
+    validations:
+      required: true
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this bug?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to add a issue!
+        To claim this issue, please ask for it below. 
+        The maintainers will assign a contributor to this issue.
+  - type: markdown
+    attributes:
+      value: |
+        You can also join our slack community [here](https://join.slack.com/t/dokcommunity/shared_invite/zt-10v7uncvp-jNFwulsVWvUO0SKMDTjwAw)
+        Feel free to check out other cool repositories of the DOK Community [here](https://github.com/dokc)
