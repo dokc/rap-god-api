@@ -10,7 +10,7 @@
     "dev": "nodemon ./build/index.js",
     "transpile": "babel ./src -d build",
     "conn": "node ./build/connection.js",
-    "test": "node -v"
+    "test": "jest"
   },
   "dependencies": {
     "@babel/cli": "^7.17.6",
@@ -33,5 +33,21 @@
     "presets": [
       "@babel/preset-env"
     ]
-  }
+  },
+  "description": "<hr/>",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokc/rap-god-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dokc/rap-god-api/issues"
+  },
+  "homepage": "https://github.com/dokc/rap-god-api#readme"
 }
