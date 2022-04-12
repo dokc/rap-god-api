@@ -1,4 +1,4 @@
-export default {
+let values = {
   fields: {
       video_link :     "text",
       lyrics     :     "text",
@@ -14,3 +14,4 @@ export default {
       },
   key: ["rap_id","lyricist_name"]
 }
+export {values}
