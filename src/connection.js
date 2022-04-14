@@ -6,7 +6,7 @@ setDirectory(__dirname + "/models").bind(
       contactPoints: ["127.0.0.1"],
       localDataCenter: "datacenter1",
       protocolOptions: { port: 9042 },
-      keyspace: "CassTest",
+      keyspace: "rapLyrics",
       queryOptions: { consistency: consistencies.one },
       socketOptions: { readTimeout: 0 },
     },
