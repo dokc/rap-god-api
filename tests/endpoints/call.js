@@ -1,5 +1,5 @@
-function foo (a, b){
-  return a + b;
-};
+function foo(a, b) {
+  return a + b
+}
 
-export default foo;
+export default foo
