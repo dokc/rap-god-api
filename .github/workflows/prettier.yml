@@ -18,7 +18,8 @@ jobs:
           # Make sure the actual branch is checked out when running on pull requests
           ref: ${{ github.head_ref }}
 
-      - name: actionsx/prettier
-        # You may pin to the exact commit or the version.
-        # uses: actionsx/prettier@13639c769e72c3e51d53ae383b681a684c883233
-        uses: actionsx/prettier@v2
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.2
+        with:
+          # This part is also where you can pass other options, for example:
+          prettier_options: --write **/*.{js,md} --config .prettierrc
