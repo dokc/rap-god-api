@@ -6,3 +6,5 @@
 .eslint.js
 *.json
 src
+tests
+*.config.js
