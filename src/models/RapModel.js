@@ -14,4 +14,4 @@ let values = {
   },
   key: ["rap_id", "lyricist_name"],
 }
-export default  values 
+export default values
