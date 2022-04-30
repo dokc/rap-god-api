@@ -10,7 +10,6 @@
   "scripts": {
     "dev": "nodemon ./build/index.js",
     "transpile": "babel ./src -d build",
-    "conn": "node ./build/connection.js",
     "test": "jest"
   },
   "dependencies": {
