@@ -17,4 +17,6 @@ let value = {
   },
   key: ["rap_id", "lyricist_name"],
 }
+
 export default value
+
