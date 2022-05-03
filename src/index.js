@@ -1,8 +1,8 @@
-var models = require("express-cassandra")
 import express from "express"
 import helmet from "helmet"
 import { setDirectory, consistencies } from "express-cassandra"
-import singer_router from "./routes/router"
+import singer_router from "./routes/singer_router"
+import rapRoutes from "./routes/rap_router"
 
 const app = express()
 
@@ -55,6 +55,7 @@ app.get("/", (req, res) => {
 
 
 app.use("/singer", singer_router)
+app.use("/rap", rapRoutes)
 
 
 export default app
