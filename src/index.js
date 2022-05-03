@@ -1,3 +1,4 @@
+var models = require("express-cassandra")
 import express from "express"
 import helmet from "helmet"
 import { setDirectory, consistencies } from "express-cassandra"
