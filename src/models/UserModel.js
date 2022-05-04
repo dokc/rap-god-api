@@ -7,4 +7,6 @@ let users = {
   }
   key : ["email"],
 }
+
+export default users
     
