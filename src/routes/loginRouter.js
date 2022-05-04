@@ -35,3 +35,5 @@ login_router.post("/login", async (req,res) => {
 
     }
 );
+
+export default login_router
