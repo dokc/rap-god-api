@@ -1,7 +1,6 @@
 name: Lint
 
 on: [push]
-
 jobs:
   eslint:
     runs-on: ubuntu-latest

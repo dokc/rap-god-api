@@ -14,7 +14,4 @@ let singers = {
 }
 
 export default singers
-<<<<<<< HEAD
-=======
 
->>>>>>> 4103f3a0b7e3bf7654128d6fc7aeb7c855440fb7
