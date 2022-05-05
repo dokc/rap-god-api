@@ -4,8 +4,8 @@ partitioner: org.apache.cassandra.dht.Murmur3Partitioner
 commitlog_sync: periodic
 commitlog_sync_period_in_ms: 10000
 rpc_address: 0.0.0.0
-listen_address: localhost
-broadcast_rpc_address: 172.24.0.2
+listen_address: 172.18.0.2
+broadcast_rpc_address: 172.18.0.2
 
 role_manager: CassandraRoleManager
 
@@ -35,7 +35,7 @@ concurrent_counter_writes: 32
 seed_provider:
   - class_name: org.apache.cassandra.locator.SimpleSeedProvider
     parameters:
-      - seeds: "172.24.0.2"
+      - seeds: "172.18.0.2"
 
 #Timeouts
 cas_contention_timeout_in_ms: 1000

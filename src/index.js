@@ -53,8 +53,6 @@ app.get("/", (req, res) => {
   res.send("Hello World!")
 })
 
-
 app.use("/singer", singer_router)
-
 
 export default app
