@@ -5,7 +5,7 @@ let value = {
     label: "text",
     date_of_release: {
       type: "timestamp",
-      default: { "$db_function": "toTimestamp(now())" }
+      default: { $db_function: "toTimestamp(now())" },
     },
     singer: "text",
     miscell_inf: "text",
@@ -19,4 +19,3 @@ let value = {
 }
 
 export default value
-
