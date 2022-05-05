@@ -7,20 +7,18 @@ let rapRoutes = Router()
 
 rapRoutes.use(express.json())
 
-
-rapRoutes.get("/:uuid/", (req,res) => {
-    models.instance.Rap.find(
-        { rap_id: uuidFromString(req.params.uuid) },
-        (err, data) => {
-            if (err) {
-                console.error(err)
-            } else {
-                res.send(data)
-            }
-        }
-    )
+rapRoutes.get("/:uuid/", (req, res) => {
+  models.instance.Rap.find(
+    { rap_id: uuidFromString(req.params.uuid) },
+    (err, data) => {
+      if (err) {
+        console.error(err)
+      } else {
+        res.send(data)
+      }
+    }
+  )
 })
-
 
 rapRoutes.post("/:uuid/", (req, res) => {
   let test = new models.instance.Rap({
@@ -42,6 +40,4 @@ rapRoutes.post("/:uuid/", (req, res) => {
   })
 })
 
-
 export default rapRoutes
-
