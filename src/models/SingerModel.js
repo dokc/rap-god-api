@@ -14,3 +14,4 @@ let singers = {
 }
 
 export default singers
+
