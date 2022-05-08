@@ -64,7 +64,7 @@ singer_router.delete("/:uuid/", (req, res) => {
         console.error(err)
       } else {
         console.log("The data was deleted")
-        res.send(`Data was deleted ${req.params.uuid}`)
+        res.send(`Model ${req.params.uuid} was deleted `)
       }
     }
   )
