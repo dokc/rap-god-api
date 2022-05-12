@@ -78,5 +78,4 @@ rap_router.delete("/:uuid/", (req, res) => {
   )
 })
 
-
 export default rap_router
