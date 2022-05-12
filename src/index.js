@@ -3,7 +3,7 @@ import express from "express"
 import helmet from "helmet"
 import { setDirectory, consistencies } from "express-cassandra"
 import singer_router from "./routes/singer_router"
-import rapRoutes from "./routes/rap_router"
+import rap_router from "./routes/rap_router"
 
 const app = express()
 
@@ -55,6 +55,6 @@ app.get("/", (req, res) => {
 })
 
 app.use("/singer", singer_router)
-app.use("/rap", rapRoutes)
+app.use("/rap", rap_router)
 
 export default app
